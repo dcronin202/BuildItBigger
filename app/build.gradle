@@ -49,5 +49,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     implementation project(':javaJokes')
+    implementation project(':jokeDisplay')
 
 }
