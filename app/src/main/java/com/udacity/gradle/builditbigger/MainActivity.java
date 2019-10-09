@@ -4,10 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Toast;
-
-import com.example.android.lib.JavaJokes;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -41,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void tellJoke(View view) {
+    // Step 1
+    /* public void tellJoke(View view) {
         JavaJokes jokes = new JavaJokes();
         Toast.makeText(this, jokes.fetchJavaJoke(), Toast.LENGTH_SHORT).show();
-    }
-
+    } */
 
 }
