@@ -31,7 +31,7 @@ public class MainActivityFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
 
         // Step 2
-        setButton(root);
+        //setButton(root);
 
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
@@ -44,6 +44,7 @@ public class MainActivityFragment extends Fragment {
         return root;
     }
 
+    /*
     public void launchJokeActivity(View view) {
         Intent intent = new Intent(view.getContext(), JokeActivity.class);
         JavaJokes jokeSource = new JavaJokes();
@@ -62,6 +63,6 @@ public class MainActivityFragment extends Fragment {
                 launchJokeActivity(view);
             }
         });
-    }
+    }*/
 
 }
