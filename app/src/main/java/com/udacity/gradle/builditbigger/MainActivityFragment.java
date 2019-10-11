@@ -30,7 +30,6 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
 
-        // Step 2
         //setButton(root);
 
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
@@ -44,11 +43,11 @@ public class MainActivityFragment extends Fragment {
         return root;
     }
 
-    /*
+    /* STEP 2: Create an Android Library
     public void launchJokeActivity(View view) {
         Intent intent = new Intent(view.getContext(), JokeActivity.class);
         JavaJokes jokeSource = new JavaJokes();
-        String joke = jokeSource.fetchJavaJoke();
+        String joke = jokeSource.fetchJoke();
         intent.putExtra(JokeActivity.JOKE_KEY, joke);
         startActivity(intent);
 
