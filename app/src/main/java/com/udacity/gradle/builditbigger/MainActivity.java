@@ -29,8 +29,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new MainEndpointsAsyncTask().execute();
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        button = findViewById(R.id.joke_button);
+        button.setEnabled(false);
+
+        new MainEndpointsAsyncTask().execute();
     }
 
     @Override
@@ -95,7 +103,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(final String result) {
             //Toast.makeText(MainActivity.this, result, Toast.LENGTH_LONG).show();
-            button = findViewById(R.id.joke_button);
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -104,6 +111,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
             });
+
+            button.setEnabled(true);
         }
     }
 
