@@ -8,8 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.android.jokedisplay.JokeActivity;
-import com.example.android.lib.JavaJokes;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -18,7 +16,7 @@ import com.google.android.gms.ads.AdView;
  */
 public class MainActivityFragment extends Fragment {
 
-    private Button button;
+    //private Button button;
 
 
     public MainActivityFragment() {
