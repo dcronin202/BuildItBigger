@@ -32,15 +32,22 @@ android {
         }
     }
 
-    flavorDimensions "version"
+    // STEP 5: Add a Paid Flavor
+    flavorDimensions 'version'
     productFlavors {
-        free {
-            dimension "version"
-            applicationIdSuffix ".free"
-        }
         paid {
-            dimension "version"
-            applicationIdSuffix ".paid"
+            dimension = 'version'
+            applicationIdSuffix = '.paid'
+            applicationId = 'com.udacity.gradle.builditbigger.paid'
+            versionCode = 1
+            versionName = '1.0'
+        }
+        free {
+            dimension = 'version'
+            applicationIdSuffix = '.free'
+            applicationId = 'com.udacity.gradle.builditbigger.free'
+            versionCode = 1
+            versionName = '1.0'
         }
     }
 
