@@ -21,6 +21,8 @@ import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static org.hamcrest.Matchers.allOf;
 
+
+// STEP 4: Add Functional Tests
 @RunWith(AndroidJUnit4.class)
 public class JokeTest {
 
