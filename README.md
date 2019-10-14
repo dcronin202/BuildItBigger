@@ -121,7 +121,7 @@ dependencies you can) from the paid flavor.
 ## Screenshots
 
 ### Free Version
-[](https://github.com/dcronin202/BuildItBigger/blob/master/screenshots/main_activity_free.png)  [](https://github.com/dcronin202/BuildItBigger/blob/master/screenshots/joke_display.png)
+![](https://github.com/dcronin202/BuildItBigger/blob/master/screenshots/main_activity_free.png)  ![](https://github.com/dcronin202/BuildItBigger/blob/master/screenshots/joke_display.png)
 
 ### Paid Version
-[](https://github.com/dcronin202/BuildItBigger/blob/master/screenshots/main_activity_paid.png)
+![](https://github.com/dcronin202/BuildItBigger/blob/master/screenshots/main_activity_paid.png)
